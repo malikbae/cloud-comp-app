@@ -44,8 +44,8 @@ const port = process.env.PORT || 3000;
 
 const start = async () => {
   try {
-    // await User.sync({ alter: true });
-    // await Job.sync({ alter: true });
+    await User.sync({ alter: true });
+    await Job.sync({ alter: true });
     await app.listen(port, () => {
       console.log(`Server is listening on port ${port}...`);
     });
