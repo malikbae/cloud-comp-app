@@ -1,4 +1,4 @@
-import main from "../assets/images/main.svg";
+import main from "../assets/images/job-hunt.svg";
 import Wrapper from "../assets/wrappers/LandingPage";
 import { Logo } from "../components";
 import { Link } from "react-router-dom";
@@ -12,9 +12,12 @@ const Landing = () => {
         {/* info */}
         <div className="info">
           <h1>
-            job <span>tracking</span> app
+            note your <span>career</span> journey
           </h1>
-          <p>Crucifix narwhal street art asymmetrical, humblebrag tote bag pop-up fixie raclette taxidermy craft beer. Brunch bitters synth, VHS crucifix heirloom meggings bicycle rights.</p>
+          <p>
+            Find ease in tracking and managing all your job applications with JobsJourney. Designed for modern job seekers, JobsJourney is the app that helps you keep track of every step in your job search, from the first application to the
+            job offer.
+          </p>
           <Link to="/register" className="btn btn-hero">
             login/Register
           </Link>
